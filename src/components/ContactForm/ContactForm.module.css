@@ -1,0 +1,33 @@
+.form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 97%;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.button {
+  display: block;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.error {
+  color: #dc2626;
+  margin-top: 4px;
+}
