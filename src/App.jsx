@@ -5,7 +5,7 @@ import ContactForm from "./components/ContactForm/ContactForm";
 import SearchBox from "./components/SearchBox/SearchBox";
 import {useDispatch, useSelector} from "react-redux";
 import {useEffect} from "react";
-import {fetchContacts} from "./redux/contactOps.js";
+import {fetchContacts} from "./redux/contactsOps.js";
 import {selectError, selectIsLoading} from "./redux/contactsSlice.js";
 
 function App() {
